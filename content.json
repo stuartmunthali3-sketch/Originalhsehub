@@ -1,0 +1,395 @@
+{
+  "site": {
+    "name": "ZamHSE",
+    "orderFormUrl": "https://originalhsehub.app.n8n.cloud/form/zamhse-order",
+    "whatsapp": "260000000000",
+    "phoneDisplay": "+260 000 000 000",
+    "email": "info@zamhse.com",
+    "location": "Zambia"
+  },
+  "hero": {
+    "eyebrow": "Health • Safety • Environment",
+    "title": "Keep your people safe. Keep your site compliant.",
+    "lead": "ZamHSE supplies quality HSE products, services and ready-to-use documents to businesses, mines, contractors and schools across Zambia. Order online or request a quote in minutes."
+  },
+  "catalogIntro": "Browse each section. Preview our document templates, then contact us and we will send you the full editable version.",
+  "sections": [
+    {
+      "id": "ppe",
+      "title": "PPE",
+      "icon": "🦺",
+      "description": "Hard hats, safety boots, gloves, coveralls, high-visibility vests, eye and ear protection, respirators.",
+      "templates": [
+        {
+          "name": "PPE Issue Register",
+          "description": "Track who received which PPE and when.",
+          "preview": [
+            "# PPE ISSUE REGISTER",
+            "Company: ____________   Site: ____________",
+            "- Employee name | ID | Item issued | Size | Date | Signature",
+            "- ____________ | ____ | Hard hat | M | ____ | ______",
+            "Full template available on request."
+          ]
+        },
+        {
+          "name": "PPE Inspection Checklist",
+          "description": "Monthly inspection of issued PPE.",
+          "preview": [
+            "# PPE INSPECTION CHECKLIST",
+            "[ ] Hard hat: no cracks, harness intact",
+            "[ ] Safety boots: sole and toe cap in good condition",
+            "[ ] Gloves: no tears or contamination",
+            "Full template available on request."
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": "Safety Hard Hat",
+          "description": "Impact-resistant helmet for site and mine use.",
+          "price": "",
+          "image": ""
+        },
+        {
+          "name": "Safety Boots (Steel Toe)",
+          "description": "Slip-resistant boots with steel toe cap.",
+          "price": "",
+          "image": ""
+        },
+        {
+          "name": "High-Visibility Vest",
+          "description": "Reflective vest for day and night visibility.",
+          "price": "",
+          "image": ""
+        },
+        {
+          "name": "Safety Goggles",
+          "description": "Clear anti-scratch eye protection.",
+          "price": "",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "fire",
+      "title": "Fire Safety",
+      "icon": "🔥",
+      "description": "Fire extinguishers, fire blankets, hose reels, alarms and refills.",
+      "templates": [
+        {
+          "name": "Fire Extinguisher Inspection Log",
+          "description": "Monthly checks for every extinguisher on site.",
+          "preview": [
+            "# EXTINGUISHER INSPECTION LOG",
+            "Location: ____________   Type: ____________",
+            "[ ] Pressure gauge in green zone",
+            "[ ] Safety pin and tamper seal intact",
+            "[ ] Accessible and clearly signed",
+            "Full template available on request."
+          ]
+        },
+        {
+          "name": "Fire Drill Report",
+          "description": "Record evacuation times and findings.",
+          "preview": [
+            "# FIRE DRILL REPORT",
+            "Date: ________   Start time: ______   All clear: ______",
+            "- Assembly point reached by: ____ people",
+            "- Issues observed: ____________",
+            "Full template available on request."
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": "ABC Dry Powder Fire Extinguisher",
+          "description": "Multi-purpose extinguisher for common fire types.",
+          "price": "",
+          "image": ""
+        },
+        {
+          "name": "Fire Blanket",
+          "description": "Quick-response blanket for small fires.",
+          "price": "",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "firstaid",
+      "title": "First Aid",
+      "icon": "➕",
+      "description": "Workplace first aid kits, refills, stretchers, eyewash stations and burn care.",
+      "templates": [
+        {
+          "name": "First Aid Kit Checklist",
+          "description": "Make sure every kit is fully stocked.",
+          "preview": [
+            "# FIRST AID KIT CHECKLIST",
+            "[ ] Adhesive plasters (assorted)",
+            "[ ] Sterile dressings and bandages",
+            "[ ] Gloves and CPR face shield",
+            "Full template available on request."
+          ]
+        },
+        {
+          "name": "Incident / Injury Report Form",
+          "description": "Capture details of any workplace incident.",
+          "preview": [
+            "# INCIDENT REPORT FORM",
+            "Name of injured person: ____________",
+            "Date and time: ____________",
+            "- Description of what happened: ____________",
+            "Full template available on request."
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": "Workplace First Aid Kit",
+          "description": "Fully stocked kit for offices and sites.",
+          "price": "",
+          "image": ""
+        },
+        {
+          "name": "Eyewash Station",
+          "description": "Portable emergency eye flush.",
+          "price": "",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "signage",
+      "title": "Signage & Barriers",
+      "icon": "⚠️",
+      "description": "Safety signs, floor marking tape, barrier tape, cones and spill containment.",
+      "templates": [
+        {
+          "name": "Safety Signage Audit Checklist",
+          "description": "Check that all required signs are in place.",
+          "preview": [
+            "# SIGNAGE AUDIT",
+            "[ ] Fire exits clearly marked",
+            "[ ] PPE-required signs at entrances",
+            "[ ] Hazard signs at risk areas",
+            "Full template available on request."
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": "Safety Sign Set",
+          "description": "Assorted prohibition, warning and mandatory signs.",
+          "price": "",
+          "image": ""
+        },
+        {
+          "name": "Barrier Tape",
+          "description": "Hazard barrier tape, 100 m roll.",
+          "price": "",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "height",
+      "title": "Working at Height",
+      "icon": "🪢",
+      "description": "Harnesses, lanyards, anchor points and lifelines.",
+      "templates": [
+        {
+          "name": "Work at Height Permit",
+          "description": "Authorise and control work at height.",
+          "preview": [
+            "# WORK AT HEIGHT PERMIT",
+            "Location: ____________   Height: ______ m",
+            "[ ] Harness inspected before use",
+            "[ ] Anchor point rated and checked",
+            "[ ] Rescue plan in place",
+            "Full template available on request."
+          ]
+        },
+        {
+          "name": "Harness Inspection Checklist",
+          "description": "Pre-use and periodic harness checks.",
+          "preview": [
+            "# HARNESS INSPECTION",
+            "[ ] Webbing: no cuts, fraying or burns",
+            "[ ] Buckles and D-rings undamaged",
+            "[ ] Label legible and in date",
+            "Full template available on request."
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": "Full-Body Harness",
+          "description": "Adjustable harness for work at height.",
+          "price": "",
+          "image": ""
+        },
+        {
+          "name": "Shock-Absorbing Lanyard",
+          "description": "Lanyard with energy absorber.",
+          "price": "",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "training",
+      "title": "HSE Training",
+      "icon": "🎓",
+      "description": "Induction, first aid awareness, fire safety, manual handling and toolbox talks, delivered on your site or ours.",
+      "templates": [
+        {
+          "name": "Training Attendance Register",
+          "description": "Record who attended each session.",
+          "preview": [
+            "# TRAINING ATTENDANCE REGISTER",
+            "Topic: ____________   Trainer: ____________",
+            "- Name | Company | ID | Signature",
+            "Full template available on request."
+          ]
+        },
+        {
+          "name": "Toolbox Talk Record",
+          "description": "Document daily or weekly safety talks.",
+          "preview": [
+            "# TOOLBOX TALK RECORD",
+            "Topic: ____________   Date: ________",
+            "- Key points discussed: ____________",
+            "- Questions raised: ____________",
+            "Full template available on request."
+          ]
+        }
+      ],
+      "products": []
+    },
+    {
+      "id": "risk",
+      "title": "Risk Assessments & Audits",
+      "icon": "📋",
+      "description": "Workplace inspections, hazard identification and practical recommendations.",
+      "templates": [
+        {
+          "name": "Risk Assessment Matrix",
+          "description": "Rate hazards by likelihood and severity.",
+          "preview": [
+            "# RISK ASSESSMENT",
+            "- Hazard | Who is at risk | Likelihood | Severity | Rating",
+            "- ____________ | ____________ | 1-5 | 1-5 | ____",
+            "- Control measures: ____________",
+            "Full template available on request."
+          ]
+        },
+        {
+          "name": "Job Safety Analysis (JSA)",
+          "description": "Break a job into steps and control each hazard.",
+          "preview": [
+            "# JOB SAFETY ANALYSIS",
+            "Job: ____________   Date: ________",
+            "- Step | Hazard | Control | Responsible",
+            "Full template available on request."
+          ]
+        }
+      ],
+      "products": []
+    },
+    {
+      "id": "docs",
+      "title": "HSE Documentation",
+      "icon": "📄",
+      "description": "Policies, SOPs, safety plans and incident reporting templates.",
+      "templates": [
+        {
+          "name": "HSE Policy Statement",
+          "description": "A clear company safety policy ready to sign.",
+          "preview": [
+            "# HSE POLICY STATEMENT",
+            "[Company name] is committed to providing a safe and healthy workplace for all employees, contractors and visitors.",
+            "- We will comply with all applicable legal requirements.",
+            "Full template available on request."
+          ]
+        },
+        {
+          "name": "Standard Operating Procedure (SOP)",
+          "description": "Consistent format for any work procedure.",
+          "preview": [
+            "# STANDARD OPERATING PROCEDURE",
+            "Title: ____________   Doc no: ______   Rev: ____",
+            "- 1. Purpose",
+            "- 2. Scope",
+            "- 3. Responsibilities",
+            "Full template available on request."
+          ]
+        }
+      ],
+      "products": []
+    },
+    {
+      "id": "service",
+      "title": "Equipment Servicing",
+      "icon": "🔧",
+      "description": "Fire extinguisher servicing and first aid kit restocking.",
+      "templates": [
+        {
+          "name": "Equipment Service Log",
+          "description": "Keep a record of all servicing done.",
+          "preview": [
+            "# EQUIPMENT SERVICE LOG",
+            "- Equipment ID | Type | Last service | Next due | Signed",
+            "Full template available on request."
+          ]
+        }
+      ],
+      "products": [
+        {
+          "name": "Fire Extinguisher Servicing",
+          "description": "Inspection, refill and tagging.",
+          "price": "",
+          "image": ""
+        },
+        {
+          "name": "First Aid Kit Restocking",
+          "description": "We restock and replace expired items.",
+          "price": "",
+          "image": ""
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": "Send your request",
+      "text": "Fill in the short order form with what you need."
+    },
+    {
+      "title": "Get your quote",
+      "text": "We confirm availability and pricing by phone, WhatsApp or email."
+    },
+    {
+      "title": "Delivery or service",
+      "text": "We deliver your products, send your templates or schedule your service or training."
+    }
+  ],
+  "faq": [
+    {
+      "q": "How fast will I hear back?",
+      "a": "We aim to respond to every request as quickly as possible, usually the same working day."
+    },
+    {
+      "q": "Can I download the templates?",
+      "a": "You can preview every template on the site. The full editable file is sent to you directly by ZamHSE once you request it."
+    },
+    {
+      "q": "Do you deliver outside Lusaka?",
+      "a": "Yes. Enter your delivery location in the form and we will confirm delivery options and costs."
+    },
+    {
+      "q": "Can you train my staff on-site?",
+      "a": "Yes. Choose \"Book a service / training\" in the form and tell us the topic and number of people."
+    }
+  ]
+}

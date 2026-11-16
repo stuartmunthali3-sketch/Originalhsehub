@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex,nofollow" />
+  <title>Site Admin</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <style>
+    :root{--green:#0b5d3b;--dark:#08452b;--yellow:#f5b700;--border:#dbe5e0;--bg:#f3f7f5;--muted:#5b6b64}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;background:var(--bg);color:#1b2a24;line-height:1.5}
+    header{background:var(--green);color:#fff;padding:14px 4%;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:10}
+    header h1{font-size:1.15rem;margin:0}
+    main{max-width:900px;margin:20px auto;padding:0 4%}
+    .panel{background:#fff;border:1px solid var(--border);border-radius:12px;padding:18px;margin-bottom:18px}
+    .panel>h2{margin:0 0 12px;font-size:1.15rem;color:var(--green)}
+    label{display:block;font-size:.85rem;font-weight:600;margin:10px 0 4px;color:var(--muted)}
+    input,textarea,select{width:100%;padding:9px 10px;border:1px solid #c5d3cc;border-radius:8px;font:inherit;background:#fff}
+    textarea{min-height:70px;resize:vertical}
+    .row{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+    button,.btn{background:var(--green);color:#fff;border:0;padding:9px 16px;border-radius:999px;font-weight:600;cursor:pointer;text-decoration:none;font-size:.9rem;display:inline-block}
+    button:hover,.btn:hover{background:var(--dark)}
+    .ghost{background:#fff;color:var(--green);border:1.5px solid var(--green)}
+    .ghost:hover{background:#eaf4ef}
+    .danger{background:#fff;color:#b3261e;border:1.5px solid #b3261e}
+    .danger:hover{background:#fdecea}
+    .small{padding:5px 12px;font-size:.8rem}
+    .bar{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+    .item{border:1px solid var(--border);border-radius:10px;padding:12px;margin-top:12px;background:#fbfdfc}
+    .item.sec{border-left:5px solid var(--yellow)}
+    .item .item{background:#fff}
+    .item-head{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap}
+    .item-head strong{font-size:.95rem}
+    .hint{font-size:.8rem;color:var(--muted);margin:4px 0 0}
+    #status{font-size:.85rem;opacity:.9}
+    .note{background:#fff8e0;border:1px solid #f0dc9a;border-radius:8px;padding:10px 12px;font-size:.88rem;margin-bottom:14px}
+      .thumb{display:block;max-width:120px;max-height:120px;border-radius:8px;margin-top:8px;border:1px solid var(--border)}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Site Admin</h1>
+    <span id="status">Loading…</span>
+    <div class="bar" style="margin:0">
+      <a class="btn small ghost" href="index.html?draft=1" target="_blank">Preview draft</a>
+      <button class="small ghost" id="dl">Download content.json</button>
+    </div>
+  </header>
+  <main>
+    <div class="note">
+      Edit anything below. Changes are saved as a <strong>draft in this browser</strong> automatically. Use <strong>Preview draft</strong> to check, then <strong>Publish to GitHub</strong> at the bottom (or download <code>content.json</code> and upload it to your repo) to make it live.
+    </div>
+    <div id="root"></div>
+  </main>
+  <script src="admin.js"></script>
+</body>
+</html>
