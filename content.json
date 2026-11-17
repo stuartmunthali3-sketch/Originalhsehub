@@ -2,9 +2,9 @@
   "site": {
     "name": "ZamHSE",
     "orderFormUrl": "https://originalhsehub.app.n8n.cloud/form/zamhse-order",
-    "whatsapp": "260000000000",
-    "phoneDisplay": "+260 000 000 000",
-    "email": "info@zamhse.com",
+    "whatsapp": "260766424909",
+    "phoneDisplay": "+260766424909",
+    "email": "stuartmunthali3@gmail.com",
     "location": "Zambia"
   },
   "hero": {
@@ -391,5 +391,9 @@
       "q": "Can you train my staff on-site?",
       "a": "Yes. Choose \"Book a service / training\" in the form and tell us the topic and number of people."
     }
-  ]
+  ],
+  "adminAuth": {
+    "salt": "0geYhZPVHBRggqxvtn+twg==",
+    "hash": "aglGXToM6JPwPG6SCnwqFxh9n0UifdV6ZUyc1QzFOfo="
+  }
 }
